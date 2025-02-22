@@ -273,6 +273,23 @@
         <Folder Include="Native\" />
     </ItemGroup>
     <ItemGroup>
+      <Page Include="Views\Settings\CheckBoxSettingView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
+      <Page Include="Views\Settings\ListBoxSettingView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
+      <Page Include="Views\Settings\MultiSelectBoxSettingView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
+      <Page Include="Views\Settings\NumericSettingView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
+      <Page Include="Views\Settings\TextBoxSettingView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
+    </ItemGroup>
+    <ItemGroup>
         <Compile Update="App.xaml.cs">
             <DependentUpon>App.xaml</DependentUpon>
         </Compile>
@@ -347,15 +364,6 @@
         </Compile>
         <Compile Update="Views\Controls\StreamEditControls\Send.xaml.cs">
             <DependentUpon>Send.xaml</DependentUpon>
-        </Compile>
-        <Compile Update="Views\Settings\ListBoxSettingView.xaml.cs">
-            <DependentUpon>ListBoxSettingView.xaml</DependentUpon>
-        </Compile>
-        <Compile Update="Views\Settings\MultiSelectBoxSettingView.xaml.cs">
-            <DependentUpon>MultiSelectBoxSettingView.xaml</DependentUpon>
-        </Compile>
-        <Compile Update="Views\Settings\CheckBoxSettingView.xaml.cs">
-            <DependentUpon>CheckboxSettingView.xaml</DependentUpon>
         </Compile>
         <Compile Update="Views\Windows\Dialogs\AddAccountDialog.xaml.cs">
             <DependentUpon>AddAccountDialog.xaml</DependentUpon>
